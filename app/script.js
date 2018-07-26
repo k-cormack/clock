@@ -15,9 +15,9 @@ $(document).ready(function() {
         if (seconds < 10) {
             seconds = "0" + seconds;
         }
-        if (seconds > 50) {
-            seconds = "Buzzzz"
-        }
+        
+      
+       
         var clockDiv = document.getElementById('clock');
         clockDiv.innerText = hours + ":" + minutes + ":" + seconds + meridiem;
     }    
